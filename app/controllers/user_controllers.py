@@ -1,5 +1,5 @@
 from app import db
-from app.classes.post import Post
+from app.models.classes.post import Post
 from datetime import datetime
 from flask import request, jsonify
 

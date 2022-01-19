@@ -1,5 +1,5 @@
 from app.controllers.user_controllers import del_post, get_all_posts, patch_post, register
-from app.decorators.decorators import verify_id, verify_keys, verify_one_key
+from app.models.decorators.decorators import verify_id, verify_keys, verify_one_key
 from flask import Flask, request
 
 def all_routes(app: Flask):
